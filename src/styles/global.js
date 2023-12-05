@@ -26,9 +26,11 @@ export const SobreMim = styled.main`
   height: 90vh;
   padding-top: 80px;
 
-/* @media screen and (max-width: 700px){
-  
-} */
+@media (max-width: 950px){
+  height: 110vh;
+  flex-direction: column;
+  padding-top: 120px;
+}
 `;
 
 export const BlocoTitulo = styled.div`

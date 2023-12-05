@@ -1,3 +1,7 @@
+figure {
+    display: flex;
+}
+
 .eu {
     width: 35vw;
     height: 70vh;
@@ -26,4 +30,40 @@
     color: #FF8902;
     font-size: 40px;
     font-weight: 600;
+}
+
+@media (min-width: 551px) and (max-width: 950px) {
+    .eu {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .txtSobreMim,
+    .meuNome {
+        text-align: center;
+        transition: .3s;
+
+    }
+}
+
+@media (min-width: 0px) and (max-width: 550px) {
+    .eu {
+        width: 50vw;
+        height: 40vh;
+        border-radius: 1000px;
+        transition: .3s;
+    }
+
+    .txtSobreMim,
+    .meuNome {
+        text-align: center;
+    }
+
+    .txtSobreMim {
+        font-size: 25px;
+    }
+
+    .meuNome {
+        font-size: 35px;
+    }
 }
