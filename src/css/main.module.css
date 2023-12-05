@@ -1,0 +1,29 @@
+.eu {
+    width: 35vw;
+    height: 70vh;
+    border-radius: 1000px;
+    transition: .3s;
+}
+
+.eu:hover {
+    transition: .3s;
+    transform: scale(1.02);
+}
+
+.blocoSobreMim {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.txtSobreMim {
+    color: #fff;
+    font-size: 25px;
+}
+
+.meuNome {
+    color: #FF8902;
+    font-size: 40px;
+    font-weight: 600;
+}
