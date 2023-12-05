@@ -26,13 +26,17 @@ export const SobreMim = styled.main`
   height: 90vh;
   padding-top: 80px;
 
-@media (max-width: 950px){
-  height: 110vh;
-  flex-direction: column;
-  padding-top: 120px;
-}
+  @media (max-width: 950px) {
+    height: 110vh;
+    flex-direction: column;
+    padding-top: 120px;
+  }
 `;
 
 export const BlocoTitulo = styled.div`
   padding: 1rem 4rem;
+
+  @media (max-width: 550px) {
+    text-align: center;
+  }
 `;

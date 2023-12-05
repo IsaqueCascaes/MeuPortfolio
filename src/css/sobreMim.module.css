@@ -1,3 +1,7 @@
+figure {
+    display: flex;
+}
+
 .imagem {
     width: 80%;
     height: 70vh;
@@ -28,4 +32,44 @@
 
 .sobreMimTitulo {
     color: #fff;
+}
+
+@media (min-width: 551px) and (max-width: 950px) {
+    .secaoSobreMim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagem {
+        width: 40vw;
+        height: 50vh;
+    }
+
+    .blocoSobreMim {
+        width: 100%;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .textoBlocoSobre {
+        text-align: center;
+    }
+
+}
+
+@media (max-width:550px) {
+    .imagem {
+        display: none;
+    }
+
+    .blocoSobreMim {
+        width: 100%;
+        align-items: center;
+        margin: 2rem;
+    }
+
+    .textoBlocoSobre {
+        font-size: 19px;
+        text-align: center;
+    }
 }
