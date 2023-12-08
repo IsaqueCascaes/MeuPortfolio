@@ -1,0 +1,18 @@
+.blocoImagens {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+    height: 30vh;
+}
+
+.imagens {
+    filter: brightness(100%);
+    transition: filter .3s ease-in-out;
+}
+
+.imagens:hover {
+    filter:brightness(70%);
+}

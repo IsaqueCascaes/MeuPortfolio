@@ -30,10 +30,6 @@ figure {
     padding-bottom: 1rem;
 }
 
-.sobreMimTitulo {
-    color: #fff;
-}
-
 @media (min-width: 551px) and (max-width: 950px) {
     .secaoSobreMim {
         flex-direction: column;

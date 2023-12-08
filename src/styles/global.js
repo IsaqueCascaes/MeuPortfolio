@@ -35,6 +35,7 @@ export const SobreMim = styled.main`
 
 export const BlocoTitulo = styled.div`
   padding: 1rem 4rem;
+  color: #fff;
 
   @media (max-width: 550px) {
     text-align: center;

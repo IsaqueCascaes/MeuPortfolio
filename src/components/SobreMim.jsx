@@ -7,7 +7,7 @@ export default function SobreMim() {
   return (
     <>
       <BlocoTitulo id="SobreMim">
-        <h1 className={styles.sobreMimTitulo}>Sobre Mim</h1>
+        <h1>Sobre Mim</h1>
       </BlocoTitulo>
       <section className={styles.secaoSobreMim}>
         <figure>

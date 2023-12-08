@@ -21,13 +21,16 @@ export default class Navbar extends Component {
               className={this.state.clicked ? "#navbar active" : "navbar"}
             >
               <li>
-                <a>Inicio</a>
+                <a href="#">Inicio</a>
               </li>
               <li>
                 <a href="#SobreMim">Sobre mim</a>
               </li>
               <li>
-                <a>Projetos</a>
+                <a href="#Habilidades">Habilidades</a>
+              </li>
+              <li>
+                <a href="#Projetos">Projetos</a>
               </li>
               <li>
                 <a>Contato</a>
