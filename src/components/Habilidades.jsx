@@ -12,7 +12,12 @@ export default function Habilidades() {
       <section>
         <figure className={styles.blocoImagens}>
           {imgHabilidades.map((item) => (
-            <img src={item.imagem} className={styles.imagens} alt={`Imagem ${item.id}`} title={item.descricao} />
+            <img
+              src={item.imagem}
+              className={styles.imagens}
+              alt={`Imagem ${item.id}`}
+              title={item.descricao}
+            />
           ))}
         </figure>
       </section>

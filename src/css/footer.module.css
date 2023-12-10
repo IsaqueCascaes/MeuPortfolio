@@ -26,8 +26,14 @@ footer {
 }
 
 .blocoImgRedes img {
-    width:40px;
+    width: 40px;
+    filter: brightness(100%);
+    transition: filter .3s ease-in-out;
 
+}
+
+.blocoImgRedes img:hover {
+    filter:brightness(70%);
 }
 
 .blocoDireitos {

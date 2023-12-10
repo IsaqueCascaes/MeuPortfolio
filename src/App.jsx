@@ -5,9 +5,8 @@ import Habilidades from "./components/Habilidades.jsx";
 import Projetos from "./components/Projetos.jsx";
 import Footer from "./components/Footer.jsx";
 import GlobalStyle from "./styles/global.js";
-import "../src/App.css";
 
-function App() {
+export default function App() {
   return (
     <>
       <GlobalStyle />
@@ -21,4 +20,4 @@ function App() {
   );
 }
 
-export default App;
+

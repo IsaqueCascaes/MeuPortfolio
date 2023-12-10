@@ -19,10 +19,10 @@ export default function Projetos() {
             <p className={styles.txtCard}>{item.descricao}</p>
             <div className={styles.blocoBotoes}>
               <a href={item.linkSite} target="_blank">
-              <button>Acessar Site</button>
+                <button>Acessar Site</button>
               </a>
               <a href={item.linkGitHub} target="_blank">
-              <button>Acessar repositório</button>
+                <button>Acessar repositório</button>
               </a>
             </div>
           </div>
