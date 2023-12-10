@@ -15,6 +15,7 @@ Aqui você encontra um pouco sobre mim e minhas habilidades no mundo da tecnolog
 `npm run dev`
 
 - Após isso, o projeto funcionara normalmente!
+- Muito obrigado por visitar meu portfolio e estou aberto a dicas e feedbacks. Até 😃
 
 <p>Minhas redes socias para contato:</p>
 
