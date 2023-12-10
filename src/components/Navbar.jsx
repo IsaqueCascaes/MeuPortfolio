@@ -33,7 +33,7 @@ export default class Navbar extends Component {
                 <a href="#Projetos">Projetos</a>
               </li>
               <li>
-                <a>Contato</a>
+                <a href="#Contatos">Contato</a>
               </li>
             </ul>
           </div>

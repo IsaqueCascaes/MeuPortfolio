@@ -4,7 +4,7 @@ import inforedes from "../assets/imagensJS/redes.js";
 export default function Footer() {
   return (
     <>
-      <footer>
+      <footer id="Contatos">
         <div className={styles.blocoTituloRedes}>
           <h3>Entre em contato em minhas redes:</h3>
         </div>
