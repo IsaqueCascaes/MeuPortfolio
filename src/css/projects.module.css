@@ -1,6 +1,8 @@
 .blocoCards {
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 
 .cardProjetos {
@@ -26,7 +28,7 @@
 }
 
 .txtCard {
-    height: 12vh;
+    height: 11vh;
 }
 
 .blocoBotoes {
@@ -43,7 +45,7 @@
     font-weight: 700;
     border: none;
     transition: .3s;
-padding: 2px;
+    padding: 2px;
 }
 
 .blocoBotoes button:hover {
@@ -52,6 +54,31 @@ padding: 2px;
     transition: .3s;
 }
 
-/* @media (min-width> 550px) and (max-width: 950px) {
+@media (min-width: 700px) and (max-width: 950px) {
+    .cardProjetos {
+        width: 40%;
+        height: 60vh;
+    }
 
-} */
+    .txtCard {
+        height: 16vh;
+    }
+}
+
+@media (max-width: 699px) {
+    .blocoCards {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardProjetos {
+        width: 70%;
+        height: 60vh;
+    }
+
+    .txtCard {
+        height: 17vh;
+        overflow: auto;
+    }
+}

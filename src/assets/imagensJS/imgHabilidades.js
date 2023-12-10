@@ -1,10 +1,10 @@
-import htmlImg from "../assets/html-5.png";
-import cssImg from "../assets/css-3.png";
-import jsImg from "../assets/js.png";
-import reactImg from "../assets/react.png";
-import figmaImg from "../assets/figma.png";
-import mysqlImg from "../assets/mysql.png";
-import pythonImg from "../assets/python.png";
+import htmlImg from "../html-5.png";
+import cssImg from "../css-3.png";
+import jsImg from "../js.png";
+import reactImg from "../react.png";
+import figmaImg from "../figma.png";
+import mysqlImg from "../mysql.png";
+import pythonImg from "../python.png";
 
 const imagensHabilidades = [
   { id: 1, imagem: htmlImg, descricao:"HTML" },

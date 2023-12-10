@@ -1,5 +1,5 @@
 import { BlocoTitulo } from "../styles/global";
-import imgHabilidades from "../assets/imgHabilidades";
+import imgHabilidades from "../assets/imagensJS/imgHabilidades";
 import styles from "../css/habilidades.module.css";
 
 export default function Habilidades() {
