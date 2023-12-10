@@ -8,11 +8,11 @@ Aqui você encontra um pouco sobre mim e minhas habilidades no mundo da tecnolog
 ## Rodando o projeto:
 - Após baixar o repositório, você deve dar o seguinte comando em seu terminal:
   
-## `npm install`
+`npm install`
 
 - Depois disso, você deve usar o comando "npm run dev" para o projeto rodar
 
-## `npm run dev`
+`npm run dev`
 
 - Após isso, o projeto funcionara normalmente!
 
