@@ -9,22 +9,29 @@ export default function Projetos() {
       </BlocoTitulo>
 
       <section className={styles.blocoCards}>
-        {/* DEIXAR RESPONSIVO */}
-        {projects.map((item) => (
-          <div className={styles.cardProjetos} key={item.id}>
+
+        {projects.map((item, index) => (
+          <div className={styles.cardProjetos} key={Math.floor(Math.random() * 100)}>
+
             <figure className={styles.blocoImagemProjetos}>
               <img className={styles.imgCards} src={item.img} alt="" />
             </figure>
+
             <h3>{item.nomeProjeto}</h3>
+
             <p className={styles.txtCard}>{item.descricao}</p>
+
             <div className={styles.blocoBotoes}>
               <a href={item.linkSite} target="_blank">
                 <button>Acessar Site</button>
               </a>
+
               <a href={item.linkGitHub} target="_blank">
                 <button>Acessar repositório</button>
               </a>
+
             </div>
+
           </div>
         ))}
       </section>

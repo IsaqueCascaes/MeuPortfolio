@@ -17,6 +17,7 @@ export default function Habilidades() {
               className={styles.imagens}
               alt={`Imagem ${item.id}`}
               title={item.descricao}
+              key={item.id}
             />
           ))}
         </figure>
