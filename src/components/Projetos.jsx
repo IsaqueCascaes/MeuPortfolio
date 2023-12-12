@@ -1,6 +1,7 @@
 import { BlocoTitulo } from "../styles/global";
 import projects from "../projects/projects";
 import styles from "../css/projects.module.css";
+
 export default function Projetos() {
   return (
     <>
@@ -9,10 +10,11 @@ export default function Projetos() {
       </BlocoTitulo>
 
       <section className={styles.blocoCards}>
-
         {projects.map((item, index) => (
-          <div className={styles.cardProjetos} key={Math.floor(Math.random() * 100)}>
-
+          <div
+            className={styles.cardProjetos}
+            key={Math.floor(Math.random() * 100)}
+          >
             <figure className={styles.blocoImagemProjetos}>
               <img className={styles.imgCards} src={item.img} alt="" />
             </figure>
@@ -29,9 +31,7 @@ export default function Projetos() {
               <a href={item.linkGitHub} target="_blank">
                 <button>Acessar repositório</button>
               </a>
-
             </div>
-
           </div>
         ))}
       </section>

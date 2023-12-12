@@ -1,11 +1,11 @@
 .blocoImagens {
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    padding: 1rem;
-    height: 30vh;
+    height: 20vh;
 }
 
 .imagens {
@@ -14,5 +14,21 @@
 }
 
 .imagens:hover {
-    filter:brightness(70%);
+    filter: brightness(70%);
+}
+
+@media (max-width: 400px) {
+    .blocoImagens {
+
+        margin: 2rem 2rem;
+        height: 40vh;
+    }
+
+    #habilidaes h1 {
+        width: 90%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
 }

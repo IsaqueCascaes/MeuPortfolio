@@ -27,7 +27,7 @@ const projects = [
     descricao:
       "Essa página foi criada com o objetivo de trazer uma ideia da página da StarBucks.",
     linkSite: "https://starbucks-isaquecascaes.netlify.app/",
-    linkGitHub: "https://github.com/IsaqueCascaes/starBucks-Page"
+    linkGitHub: "https://github.com/IsaqueCascaes/starBucks-Page",
   },
 ];
 

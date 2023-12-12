@@ -10,7 +10,7 @@ export default function Footer() {
         </div>
         <figure className={styles.blocoImgRedes}>
           {inforedes.map((item) => (
-            <a href={item.link} key={Math.floor(Math.random() * 100)}>
+            <a href={item.link} key={Math.floor(Math.random() * 100)} target="_blank">
               <img
                 src={item.img}
                 alt="imagens, redes sociais de Isaque"

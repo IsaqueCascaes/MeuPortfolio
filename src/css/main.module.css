@@ -48,7 +48,7 @@ figure {
 
 @media (min-width: 0px) and (max-width: 550px) {
     .eu {
-        width: 50vw;
+        width: 70vw;
         height: 40vh;
         border-radius: 1000px;
         transition: .3s;

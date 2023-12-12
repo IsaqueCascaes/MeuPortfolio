@@ -1,8 +1,6 @@
 import { Component } from "react";
 import logo from "../assets/formato-html.png";
-
 import "../css/navbar.css";
-
 export default class Navbar extends Component {
   state = { clicked: false };
   handleclick = () => {
