@@ -17,6 +17,36 @@ body {
   background: rgb(0,0,0);
   background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(17,33,56,1) 50%, rgba(6,8,11,1) 100%);
 }
+
+.point-down {
+  display: inline-block;
+  animation: pointDownAnimation 1.5s infinite;
+  transform-origin: center;
+}
+
+@keyframes pointDownAnimation {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(5px); }
+  100% { transform: translateY(0); }
+}
+
+.wave {
+  display: inline-block;
+  animation: wave-animation 2s infinite;
+  transform-origin: 70% 70%;
+}
+
+@keyframes wave-animation {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(14deg); }
+  20% { transform: rotate(-8deg); }
+  30% { transform: rotate(14deg); }
+  40% { transform: rotate(-4deg); }
+  50% { transform: rotate(10deg); }
+  60% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
 `;
 
 export const SobreMim = styled.main`

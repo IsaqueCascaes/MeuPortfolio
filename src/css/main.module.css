@@ -46,10 +46,21 @@ figure {
     }
 }
 
+@media (min-width: 551px) and (max-width: 700px) {
+    .eu {
+        width: 50vw;
+        height: 40vh;
+        border-radius: 1000px;
+        transition: .3s;
+    }
+
+}
+
+
 @media (min-width: 0px) and (max-width: 550px) {
     .eu {
-        width: 70vw;
-        height: 40vh;
+        width: 50vw;
+        height: 30vh;
         border-radius: 1000px;
         transition: .3s;
     }

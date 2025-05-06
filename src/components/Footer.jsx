@@ -20,7 +20,7 @@ export default function Footer() {
           ))}
         </figure>
         <div className={styles.blocoDireitos}>
-          <p>Isaque Cascaes - 2023</p>
+          <p>Isaque Cascaes - 2025</p>
           <p>Todos os direitos reservados</p>
         </div>
       </footer>

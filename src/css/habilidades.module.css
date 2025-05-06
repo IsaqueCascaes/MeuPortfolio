@@ -1,34 +1,119 @@
 .blocoImagens {
-    width: auto;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    height: 20vh;
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  padding: 2rem 1rem;
+}
+
+.cardWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
 }
 
 .imagens {
-    filter: brightness(100%);
-    transition: filter .3s ease-in-out;
+  height: 64px;
+  width: auto;
+  max-width: 100%;
+  filter: brightness(100%);
+  transition: filter 0.3s ease-in-out, transform 0.3s ease;
+  z-index: 1;
 }
 
 .imagens:hover {
-    filter: brightness(70%);
+  filter: brightness(70%);
+  transform: scale(1.05);
 }
 
-@media (max-width: 400px) {
-    .blocoImagens {
+.tooltip {
+  position: absolute;
+  bottom: -120px;
+  width: 320px;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 1rem 1.25rem;
+  border-radius: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  z-index: 2;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  max-width: 90vw;
+}
 
-        margin: 2rem 2rem;
-        height: 40vh;
-    }
+.cardWrapper:hover .tooltip {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-    #habilidaes h1 {
-        width: 90%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-    }
+.tooltipAtivo {
+  opacity: 1 !important;
+  transform: translateY(0) !important;
+  pointer-events: auto !important;
+}
+
+.closeButton {
+  display: none;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 1.4rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 10;
+  padding: 0;
+  line-height: 1;
+}
+
+.closeButton:hover {
+  color: #ff5b5b;
+}
+
+@media (max-width: 560px) {
+  .blocoImagens {
+    margin: 2rem;
+    height: auto;
+  }
+
+  .imagens {
+    height: 45px;
+  }
+
+  #habilidaes h1 {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .tooltip {
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .tooltip.tooltipAtivo {
+    opacity: 1 !important;
+    pointer-events: auto !important;
+    transform: translateY(0) !important;
+  }
+
+  .closeButton {
+    display: block;
+  }
+}
+
+.closeButton:hover {
+  color: #ff5b5b;
 }

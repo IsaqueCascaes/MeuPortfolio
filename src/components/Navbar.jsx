@@ -10,7 +10,7 @@ export default class Navbar extends Component {
     return (
       <>
         <nav>
-          <a href="../App.jsx">
+          <a href="https://isaquecascaes-portifolio.netlify.app/">
             <img src={logo} alt="" />
           </a>
           <div>

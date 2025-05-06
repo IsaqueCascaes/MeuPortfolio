@@ -13,7 +13,6 @@ export default function Main() {
             <p className={styles.meuNome}>{item.meuNome}</p>
             <p className={styles.txtSobreMim}>{item.profissao}</p>
           </div>
-          // FAZER BOTAO DO CV E LINKEDIN
         ))}
 
         <figure>

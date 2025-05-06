@@ -9,19 +9,26 @@ export default function SobreMim() {
       <BlocoTitulo id="SobreMim">
         <h1>Sobre Mim</h1>
       </BlocoTitulo>
+
       <section className={styles.secaoSobreMim}>
         <figure>
           <img
             className={styles.imagem}
             src={pc}
-            alt="programação, imagem ilustrativa  "
+            alt="programação, imagem ilustrativa"
           />
         </figure>
 
         {textoSobre.map((item) => (
           <div className={styles.blocoSobreMim} key={item.id}>
-            <p className={styles.textoBlocoSobre}>{item.miniBiografia}</p>
-            <p className={styles.textoBlocoSobre}>{item.sonho}</p>
+            <p
+              className={styles.textoBlocoSobre}
+              dangerouslySetInnerHTML={{ __html: item.miniBiografia }}
+            />
+            <p
+              className={styles.textoBlocoSobre}
+              dangerouslySetInnerHTML={{ __html: item.sonho }}
+            />
           </div>
         ))}
       </section>
